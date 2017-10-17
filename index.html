@@ -77,11 +77,11 @@
     <div class="bg-green">
       <div class="green-gradient">
       <header class="mh4 bg-transparent">
-        <div class="mw8 center flex flex-row justify-between items-center">
-          <a class="link f1 white mt3 pt2" href="/">
+        <div class="mw8 center flex flex-row-ns flex-column justify-between items-center">
+          <a class="link f1 fw5 white mt3 pt2" href="/">
             ⺮
           </a>
-          <ul class="f4 fw5 sans-serif white flex flex-row list justify-between items-center">
+          <ul class="pl0 f4 fw5 sans-serif white flex flex-row list justify-between items-center">
             <li class="pointer pa0">
               <a class="link white" href="#features">
                 Features
@@ -100,11 +100,11 @@
       </header>
 
       <div class="pt4 center overflow-hidden">
-        <div class="mw8 center flex flex-row-l flex-column justify-around items-center ph5-l">
+        <div class="mw8 center flex flex-row-xl flex-row-l flex-row-m flex-column justify-around items-center pl5-l pl4-m">
           <img class="bg-clear shadow-iphone br5 w-iphone h-iphone" src="img/iphone-silver3.png" />
-          <div class="mv4 ph0-l ph4 ml5-l flex flex-column items-start-l items-center justify-center">
-            <h1 class="f1 mb0 mt0 tl-l tc"><span>Learn more.<span> <span class="nowrap">Study less.</span></h1>
-            <h2 class="fw5 mb0 tl-l tc">Learn Chinese faster and better with Bamboo.</h2>
+          <div class="mv4 ph0-l ph4 ml5-l flex flex-column items-start-ns items-center justify-center">
+            <h1 class="f1 mb0 mt0 tl-ns tc"><span><span class="nowrap">Remember more.</span><span> <span class="nowrap">Study less.</span></h1>
+            <span class="f3 mt3 fw5 mb0 tl-ns tc"><span class="nowrap">Learn Chinese faster and</span> <span class="nowrap">better with Bamboo.</span></span>
             <div class="mt4">
             <svg version="1.1" id="US_UK_Download_on_the" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
    x="0px" y="0px"  height="3rem" viewBox="0 0 135 40" enable-background="new 0 0 135 40" xml:space="preserve">
@@ -240,36 +240,33 @@
       </div>
 
 
-      <div id="features" class="bg-white dark-gray pv4 ph0-l ph4">
+      <div id="features" class="bg-white dark-gray pv4 ph0-l ph3">
         <h3 class="dark-gray tc f1 pv4 mt0 mb0">
           The most advanced Chinese learning app.
         </h3>
-        <p class="tc mv0 pt2 pb4 mt0 f3 gray mb0 lh-copy mw7 ph4 center">Save time and get better grades. For beginners and experts alike.</p>
-        <ul class="mw8 mv0 pt3 center ph0 list flex flex-row items-start justify-around f2">
-          <li class="w-third ph3 flex flex-column items-start justify-start">
+        <p class="tc mv0 pt2 pb4 mt0 f3 gray mb0 lh-copy mw7 ph4 center">For beginners and experts alike.</p>
+        <ul class="mw8 mv0 pt3 center ph0 list flex flex-wrap items-start justify-around f2">
+          <li class="w-third-l w-50-m w-100 ph3 flex flex-column items-start justify-start">
             <h3 class="f4 mb0">Handwriting Recognition.</h3>
             <p class="lh-copy f4 gray">Practice writing any character. When studying, Bamboo grades your stroke order and direction in real-time. It's better than paper.</p>
           </li>
-          <li class="w-third ph3 flex flex-column items-start justify-start">
+          <li class="w-third-l w-50-m w-100 ph3 flex flex-column items-start justify-start">
             <h3 class="f4 mb0">Spaced Repetition.</h3>
             <p class="lh-copy f4 gray">Bamboo quizzes you on words just before you forget them, so you learn faster and retain longer. And study less.</p>
           </li>
-          <li class="w-third ph3 flex flex-column items-start justify-start">
+          <li class="w-third-l w-50-m w-100 ph3 flex flex-column items-start justify-start">
             <h3 class="f4 mb0">100% Offline.</h3>
             <p class="lh-copy f4 gray">Bamboo never requires internet. Save time and data. Rest easy knowing you can study anywhere, anytime.</p>
           </li>
-        </ul>
-
-        <ul class="mw8 center ph0 pv3 mv0 list flex flex-row items-start justify-around f2">
-          <li class="w-third ph3 flex flex-column items-start justify-start">
+          <li class="w-third-l w-50-m w-100 ph3 flex flex-column items-start justify-start">
             <h3 class="f4 mb0">A Full Dictionary.</h3>
             <p class="lh-copy f4 gray">Over 100,000 words. Simplified and traditional characters. Stroke order and pronounciation for every item.</p>
           </li>
-          <li class="w-third ph3 flex flex-column items-start justify-start">
+          <li class="w-third-l w-50-m w-100 ph3 flex flex-column items-start justify-start">
             <h3 class="f4 mb0">Track your Progress.</h3>
             <p class="lh-copy f4 gray">Track your progress on lists and individual words.</p>
           </li>
-          <li class="w-third ph3 flex flex-column items-start justify-start">
+          <li class="w-third-l w-50-m w-100 ph3 flex flex-column items-start justify-start">
             <h3 class="f4 mb0">Stay Organized.</h3>
             <p class="lh-copy f4 gray">Create word lists to organize your learning. Or choose from over 100 bundled lists, including Radicals, Common Characters, and HSK. </p>
           </li>
@@ -278,56 +275,43 @@
         
       </div>
 
+      <div class="bg-white pb5 pt4 tc">
+        <!-- Begin MailChimp Signup Form -->
+        <div id="mc_embed_signup" class="w-100 tc pv4">
+        <form action="https://bamboochinese.us17.list-manage.com/subscribe/post?u=9427dfa3f9ab7aa0dae5b065e&amp;id=c8be30e626" method="post" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div class="ph4">
+              <input type="email" value="" name="EMAIL" placeholder="Enter your email" class="w55 mh2 ph3 pv3 br2 f4 fw5 b--none bg-near-white" required />
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_9427dfa3f9ab7aa0dae5b065e_c8be30e626" tabindex="-1" value=""></div>
+            <div class="dib w-auto-l w-auto-m w-100"><input type="submit" value="Join our newsletter" name="subscribe" class="pointer mv0-m mv0-l mv4 b--none ph3 pv3 br2 nowrap fw6 white bg-blue w-100 f4 hover-bg-dark-blue"></div>
+            </div>
+        </form>
+        </div>
 
-      <div id="pricing" class="green-gradient">
+      </div>
+
+
+      <div id="pricing" class="bg-near-white">
       <div class="mw8 pt4 pb5 w-100 center tc sans-serif dark-gray">
-        <h3 class="white f1 pv4 mt0">
-          Our plans.
+        <h3 class="near-black f2 fw7 pv4 mt0">
+          Our pricing.
         </h3>
-        <ul class="ph0 list flex flex-row items-center justify-around f2-ns f4">
-          <li class="bg-white br3 w5-ns w4 h5-ns h4 flex flex-column items-center justify-center">
+        <ul class="ph0 list ph4 flex flex-row-l flex-column items-center justify-around f2-ns f4">
+          <li class="bg-white mb3 br3 w5-l w-100 h5 flex flex-column items-center justify-center">
             <h4 class="f1 mv2">$19</h4>
             <span class="f5 gray">one month</span>
           </li>
-          <li>
-            <div class="bg-white br3 w5-ns w4 h5-ns h4 flex flex-column items-center justify-center">
+          <li class="bg-white mb3 br3 w5-l w-100 h5 flex flex-column items-center justify-center">
             <h4 class="f1 mv2">$59</h4>
             <span class="f5 gray">six months</span>
-            </div>
           </li>
-          <li class="bg-white br3 w5-ns w4 h5-ns h4 flex flex-column items-center justify-center">
+          <li class="bg-white mb3 br3 w5-l w-100 h5 flex flex-column items-center justify-center">
             <h4 class="f1 mv2">$99</h4>
             <span class="f5 gray">one year</span>
           </li>
         </ul>
         
       </div>
-      </div>
-
-      
-
-      <!-- <div class="bg-white bn dark-gray pa2 f4">
-        <p class="f3 fw6 tc">
-          <span class="mr2">Feel free to reach out!</span>
-          <a class="link blue" href="mailto:hello@bamboochinese.org">hello@bamboo.university</a>
-        </p>
-      </div> -->
-
-      <div class="bg-white pv5">
-        <!-- Begin MailChimp Signup Form -->
-<div id="mc_embed_signup" class="w-100 tc">
-<form action="https://bamboochinese.us17.list-manage.com/subscribe/post?u=9427dfa3f9ab7aa0dae5b065e&amp;id=c8be30e626" method="post" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div>
-      <input type="email" value="" name="EMAIL" placeholder="Enter your email" class="w55 ph3 pv3 br2 f5 b--none bg-near-white" required />
-    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_9427dfa3f9ab7aa0dae5b065e_c8be30e626" tabindex="-1" value=""></div>
-    <div class="dib"><input type="submit" value="Join our newsletter" name="subscribe" class="pointer  ml3 b--none ph3 pv3 ma0 br2 nowrap fw6 white bg-blue f5 hover-bg-dark-blue"></div>
-    </div>
-</form>
-</div>
-
-<!--End mc_embed_signup-->
-
       </div>
 
       <footer class="pv6 ph4 bg-near-black white">
@@ -337,8 +321,8 @@
               <span class="f1 white sans-serif h2 green">⺮</span>
               <span class="ml2 fw8 f4 white sans-serif pb2 green">Bamboo</span>
             </div>
-            <p class="f5 fw5 mb2 mt1 green o-50">Made in New York</p>
-            <p class="f5 fw5 mv2 green o-50">hello@bamboochinese.org</p>
+            <p class="f5 fw5 mb2 mt1 green o-70">Made in New York</p>
+            <p class="f5 fw5 mv2 green o-70">hello@bamboochinese.org</p>
           </div>
           <div class="db-ns dn pointer">
           <svg version="1.1" id="US_UK_Download_on_the" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
